@@ -1,14 +1,9 @@
-# Course Project - CS474 
 
-
-### Instrumentation program that takes syntactically correct source code of some java applications from public repo
-
-Team Members:
-
-- Mayank K Rastogi
-- Mohammed Siddiq (Leader)
-- Bharath Koneti  
-
+### Instrumentation program that takes syntactically correct code of a java applications and does the following:
+- Parses the code using AST parser, 
+- Injects the logging statements into the code
+- Executes the instrumented code as separate process
+- Communicates the result through IPC to the instrumentor
 
 
 ### Run an application:
